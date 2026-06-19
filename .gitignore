@@ -1,0 +1,18 @@
+bin/
+*.test
+*.out
+
+# Local config / data
+git-forge.db
+git-forge.db-journal
+git-forge.db-wal
+git-forge.db-shm
+/data/
+
+# Local Claude state
+.claude/
+
+# Editors
+.idea/
+.vscode/
+.DS_Store
